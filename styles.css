@@ -179,3 +179,25 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.essay-card {
+  background: #ffffff;
+  padding: 42px;
+  border-radius: 22px;
+  box-shadow: 0 10px 30px rgba(31, 58, 95, 0.12);
+}
+
+.essay-card p {
+  margin-bottom: 24px;
+  text-indent: 2em;
+}
+
+@media (max-width: 800px) {
+  .essay-card {
+    padding: 24px;
+  }
+
+  .essay-card p {
+    text-indent: 0;
+  }
+}
