@@ -145,12 +145,12 @@ h3 {
 
 .citation {
   margin: 0 0 16px;
-  padding-left: 2em;
-  text-indent: -2em;
+  padding-left: 3em;
+  text-indent: -3em;
 }
 
 .annotation {
-  margin: 0;
+  margin: 0 0 0 3em;
   color: #334e68;
 }
 
@@ -180,7 +180,7 @@ cite {
 
 .map-image {
   display: block;
-  width: min(860px, 100%);
+  width: min(620px, 100%);
   margin: 0 auto 38px;
   background: #ffffff;
   border: 1px solid #e8ded1;
@@ -340,8 +340,12 @@ footer {
   }
 
   .citation {
-    padding-left: 0;
-    text-indent: 0;
+    padding-left: 2em;
+    text-indent: -2em;
+  }
+
+  .annotation {
+    margin-left: 2em;
   }
 }
 
