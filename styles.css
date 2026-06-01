@@ -131,6 +131,33 @@ h3 {
   font-weight: bold;
 }
 
+.bibliography-section {
+  max-width: 980px;
+}
+
+.bibliography-entry {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(31, 58, 95, 0.12);
+  margin-bottom: 24px;
+  padding: 28px 32px;
+}
+
+.citation {
+  margin: 0 0 16px;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.annotation {
+  margin: 0;
+  color: #334e68;
+}
+
+cite {
+  font-style: italic;
+}
+
 .findings-section {
   max-width: 1180px;
 }
@@ -229,6 +256,15 @@ h3 {
   border-bottom: 0;
 }
 
+.timeline-table ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.timeline-table li + li {
+  margin-top: 8px;
+}
+
 .cards {
   max-width: 1100px;
   margin: 0 auto;
@@ -287,6 +323,15 @@ footer {
 
   .timeline-section {
     padding-top: 20px;
+  }
+
+  .bibliography-entry {
+    padding: 22px;
+  }
+
+  .citation {
+    padding-left: 0;
+    text-indent: 0;
   }
 }
 
