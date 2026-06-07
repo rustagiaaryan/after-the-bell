@@ -22,7 +22,7 @@
 
     <div class="page-title">
       <p class="eyebrow">About This Project</p>
-      <h1>How We Built Our Digital Humanities Project</h1>
+      <h1>How We Built a Digital Humanities Investigation into Extracurricular Inequality</h1>
     </div>
   </header>
 
@@ -30,75 +30,140 @@
     <section>
       <h2>Project Overview</h2>
       <p>
-        Our project examines children’s extracurricular participation in the United
-        States using the U.S. Census Bureau’s Survey of Income and Program
-        Participation (SIPP). We are interested in how access to activities such as
-        sports, clubs, lessons, and religious groups reflects broader inequalities in
-        educational opportunity.
+        This project examines children's extracurricular participation in the United States 
+        through the lens of digital humanities. We are interested in more than just numbers. 
+        We want to understand what data about sports, clubs, and lessons can tell us about educational access, 
+        family resources, and the structural conditions that shape childhood.
       </p>
 
       <p>
-        Although extracurricular activities are often treated as optional or separate
-        from school, our project considers how family income, parental education,
-        family structure, race/ethnicity, gender, and region may shape whether
-        children are able to participate.
+        Our central argument is that extracurricular activities are not equally available to all children. 
+        Who participates and who does not reflects broader patterns of inequality shaped by income, race, family structure, 
+        and geography. By analyzing nationally representative survey data from before and after the COVID-19 pandemic, we trace 
+        how those patterns shifted and which inequalities persisted even as overall participation rose.
+      </p>
+
+      <p>
+        This site presents our findings through data visualizations, a regional map, a research timeline, and a written narrative. 
+        Throughout, we treat the data not as a neutral source of truth but as a constructed artifact shaped by the choices of who was 
+        surveyed, what questions were asked, and how activities were categorized.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Research Questions</h2>
+      <p class="highlight">
+        1. Access and Inequality
+      </p>
+      <p>
+        How do household socioeconomic status, family structure, gender, and demographic factors 
+        such as race, ethnicity, and region interact to shape children's access to and participation in 
+        extracurricular activities over time?
+      </p>
+      
+      <p>
+        This question drives most of our visualizations. We examine participation rates across parent education levels, 
+        poverty status, family type, race and ethnicity, gender, age, and U.S. Census region.
       </p>
 
       <p class="highlight">
-        Our larger research question is: How do household socioeconomic status, family structure, gender, and demographic factors (race/ethnicity, region)
-        interact to shape children’s access to and participation in extracurricular activities over time?
+        2. COVID-19 Disruption
+      </p>
+      <p>
+        How sharply did extracurricular participation change during and after COVID-19?
+      </p>
+      
+      <p>
+        We compare 2020, a year shaped by pandemic closures and school disruptions, with 2023, 
+        a post-pandemic recovery year. This comparison lets us see not just whether participation rebounded, 
+        but whether different groups bounced back at different rates.
+      </p>
+
+      <p class="highlight">
+        3. Academic Connections
+      </p>
+      <p>
+        How is extracurricular participation tied to academic involvement and achievement?
+      </p>
+      
+      <p>
+        We look at how participation varies by homework engagement, 
+        school caring attitudes, grade repetition, and suspension or expulsion history. 
+        Rather than claiming that activities cause academic success, we examine the patterns
+        that connect them.
+      </p>
+    </section>
+    
+    <section>
+      <h2>Our Sources</h2>
+      <p><b>Primary Dataset</b><p>
+      <p>
+        Our main source is the Survey of Income and Program Participation (SIPP), 
+        a nationally representative longitudinal study administered annually by the U.S. 
+        Census Bureau. SIPP follows the same households over a four-year period and collects 
+        detailed information on income, employment, household structure, demographics, 
+        government program participation, and child well-being. The child well-being module, 
+        which focuses on children ages 6 to 17, asks parents whether their children participate 
+        in sports teams, clubs, lessons, and before or after school programs.
+      </p>
+
+      <p><b>Scholarly Literature</b><p>
+      <p>
+        We draw on peer-reviewed research and dissertations to interpret our findings. 
+        Key works include Meier et al. (2018) on 27 years of extracurricular inequality trends, 
+        Heath et al. (2022) on disadvantaged youth and the compounded benefits of participation, 
+        An and Western (2019) on social capital and family structure using an earlier SIPP panel, 
+        Covay and Carbonaro (2010) on extracurriculars and academic achievement, and Dunton et al. 
+        (2020) on how COVID-19 affected children's organized activity participation. Full citations 
+        are available in our Annotated Bibliography.
       </p>
     </section>
 
     <section>
-      <h2>Sources</h2>
+      <h2>Our Data Process</h2>
+      <p><b>Choosing the Dataset</b><p>
       <p>
-        Our main source is the 2021 and 2024 Survey of Income and Program Participation
-        (SIPP), a nationally representative survey administered by the U.S. Census
-        Bureau. The dataset includes information about income, employment, household
-        structure, demographics, government program participation, and child well-being.
-        For our project, we are especially interested in variables related to children
-        ages 6 to 17 and their participation in extracurricular activities.
+        We chose SIPP because it combines household economic data with child-level activity information 
+        in a single nationally representative survey. This allowed us to directly connect participation patterns 
+        to income, parental education, poverty status, family structure, and other household characteristics 
+        without needing to merge across separate datasets. SIPP also follows the same households over time, 
+        which gives us a longitudinal foundation even when we are comparing two cross-sectional snapshots.
       </p>
 
+      <p><b>Choosing the Years</b><p>
       <p>
-        We are also using scholarly sources from our annotated bibliography to
-        understand how extracurricular participation relates to academic achievement,
-        social development, emotional well-being, family resources, and educational
-        inequality.
-      </p>
-    </section>
-
-    <section>
-      <h2>Processing</h2>
-      <p>
-        For the processing stage, our group will select the SIPP variables most
-        relevant to our research questions. These may include extracurricular
-        participation, household income, poverty status, parental education, family
-        structure, race/ethnicity, sex, age, and Census region.
+        We selected the 2021 and 2024 SIPP files, which correspond to reference years 2020 and 2023. This window was 
+        intentional. The 2020 data captures a year heavily disrupted by the COVID-19 pandemic, when schools closed,
+        sports leagues paused, and many community programs went offline. The 2023 data reflects the post-pandemic period, 
+        allowing us to measure how much participation recovered and whether recovery was equal across groups.
       </p>
 
+      <p><b>Cleaning and Subsetting the Data</b><p>
       <p>
-        Because the SIPP dataset is very large, we will subset it to focus on children
-        ages 6 to 17 and the variables most directly connected to our topic. We will
-        also consider the limitations of parent-reported data and broad activity
-        categories when interpreting our findings.
-      </p>
-    </section>
-
-    <section>
-      <h2>Presentation</h2>
-      <p>
-        Our website will present our findings through a written narrative, data
-        visualizations, a map, a timeline, and supporting images. Rather than
-        presenting charts as isolated results, we will connect each visualization to a
-        specific humanities question about childhood, education, inequality, and access.
+        We filtered the data to include only children ages 6 to 17 and retained the variables most relevant to our research questions. 
+        These include the four extracurricular activity indicators (sports, clubs, lessons, and before or after school programs), 
+        demographic variables (age, gender, race, Census region), household and family variables (poverty status, parental education, family type), 
+        academic engagement variables (homework frequency, school caring, grade repetition, and suspension or expulsion), and the survey weight variable 
+        used to make estimates representative of the U.S. child population. We created a summary variable called Any_extracurricular that equals 1 if a 
+        child participates in at least one of the four activities. All participation rates throughout the project are calculated using survey weights.
       </p>
 
+      <p><b>What the Data Allows Us to Show</b><p>
       <p>
-        Our goal is to make the data understandable to a general audience while also
-        showing that datasets are not neutral. The way SIPP organizes children,
-        households, and activities shapes what can be seen and what remains hidden.
+        Since we have individual-level data with survey weights, we can produce weighted participation rate estimates broken down by any demographic or 
+        household variable in the dataset. This produces bar charts comparing groups by parent education, family type, poverty status, race, and gender. 
+        For age, we use a line chart to show how participation shifts across childhood. For region, we use a choropleth map to show geographic patterns. 
+        For academic engagement variables like homework frequency and school caring, we show how participation rates vary across response categories.
+      </p>
+
+      <p><b>Limitations</b><p>
+      <p>
+        Despite these strengths, the data has real limits we carry into every interpretation. Extracurricular participation is reported by a parent or 
+        guardian, not the child, which can introduce reporting differences by culture and class. The four activity categories are broad and do not distinguish 
+        between school-based and community-based programs, or between a child who attends once a week and one who trains daily. The survey does not capture why 
+        families do not participate, so we cannot directly measure cost, transportation, availability, or cultural barriers. Children outside traditional households 
+        and undocumented immigrant families are likely undercounted. Gender is coded as binary male and female, which does not capture the full range of gender identity. 
+        Taken together, these gaps mean the dataset can show us patterns but cannot fully explain the forces that produce them.
       </p>
     </section>
 
@@ -147,10 +212,8 @@
     <section>
       <h2>Acknowledgments</h2>
       <p>
-        We would like to acknowledge our DGT HUM 101 teaching team for guiding our
-        project development, including feedback on our dataset selection, research
-        questions, data critique, and website planning. Additional acknowledgments
-        will be added as the project develops.
+        We would like to thank our DGT HUM 101 teaching team and peers for their guidance throughout this project, including feedback on our research questions, dataset selection, data critique, visualizations, and website design. 
+        We also acknowledge the U.S. Census Bureau for making SIPP data publicly available, and the scholars whose work informed our analysis and interpretation. This project was completed as a final project for DGT HUM 101 at UCLA.
       </p>
     </section>
   </main>
