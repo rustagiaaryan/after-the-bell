@@ -219,6 +219,37 @@ cite {
   border-radius: 10px;
 }
 
+.interactive-chart {
+  --chart-height: 560px;
+  display: block;
+  width: min(960px, calc(100% - 48px));
+  margin: 20px auto 30px;
+  background: #ffffff;
+  border: 1px solid #e8ded1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.interactive-chart iframe {
+  display: block;
+  width: 100%;
+  height: var(--chart-height);
+  border: 0;
+  background: #ffffff;
+}
+
+.interactive-chart.chart-medium {
+  --chart-height: 560px;
+}
+
+.interactive-chart.chart-tall {
+  --chart-height: 780px;
+}
+
+.interactive-chart.chart-map {
+  --chart-height: 840px;
+}
+
 .timeline-section {
   max-width: 1100px;
   padding-top: 0;
@@ -329,6 +360,22 @@ footer {
 
   .chart-image {
     width: calc(100% - 28px);
+  }
+
+  .interactive-chart {
+    width: calc(100% - 28px);
+  }
+
+  .interactive-chart.chart-medium {
+    --chart-height: 620px;
+  }
+
+  .interactive-chart.chart-tall {
+    --chart-height: 860px;
+  }
+
+  .interactive-chart.chart-map {
+    --chart-height: 900px;
   }
 
   .timeline-section {
