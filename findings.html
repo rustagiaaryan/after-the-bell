@@ -32,6 +32,7 @@
       the SIPP extracurricular participation data from 2020 and 2023.
     </p>
 
+    <!-- Accessibility note: future graphics should include a title and sr-only description linked with aria-describedby. -->
     <article class="finding">
       <div class="finding-text">
         <p class="finding-label">Question 1</p>
@@ -46,7 +47,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-medium">
-        <iframe title="Interactive chart showing extracurricular participation by parent education category" src="assets/interactive/parent_education.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by parent education category" src="assets/interactive/parent_education.html" loading="lazy" aria-describedby="alt-parent-education"></iframe>
+        <p class="sr-only" id="alt-parent-education">
+          Bar chart comparing extracurricular participation by parent education in 2020 and 2023. Children with at least one parent with some college or higher participate at higher rates than children whose parents have a high school education or less. Both groups increase from 2020 to 2023, but the parent education gap remains.
+        </p>
       </div>
     </article>
 
@@ -67,7 +71,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-medium">
-        <iframe title="Interactive chart showing extracurricular participation by family type in 2020 and 2023" src="assets/interactive/family_type.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by family type in 2020 and 2023" src="assets/interactive/family_type.html" loading="lazy" aria-describedby="alt-family-type"></iframe>
+        <p class="sr-only" id="alt-family-type">
+          Bar chart comparing extracurricular participation by family type in 2020 and 2023. Married-couple households have the highest participation in both years. Female no-spouse and male no-spouse households are lower, though all family types show higher participation in 2023 than in 2020.
+        </p>
       </div>
     </article>
 
@@ -85,7 +92,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-tall">
-        <iframe title="Interactive chart showing extracurricular participation by race and activity type" src="assets/interactive/race.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by race and activity type" src="assets/interactive/race.html" loading="lazy" aria-describedby="alt-race"></iframe>
+        <p class="sr-only" id="alt-race">
+          Faceted horizontal bar chart showing extracurricular participation by race, activity type, and year. The chart separates after-school programs, clubs, lessons, sports, and any extracurricular participation. Participation differs across racial categories and activity types, showing that access gaps are not the same for every kind of activity.
+        </p>
       </div>
     </article>
 
@@ -101,7 +111,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-medium">
-        <iframe title="Interactive chart showing extracurricular participation by poverty status" src="assets/interactive/poverty.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by poverty status" src="assets/interactive/poverty.html" loading="lazy" aria-describedby="alt-poverty"></iframe>
+        <p class="sr-only" id="alt-poverty">
+          Bar chart comparing extracurricular participation by poverty status in 2020 and 2023. Children not in poverty participate at higher rates than children in poverty in both years. Participation rises after 2020, but the poverty gap remains visible.
+        </p>
       </div>
     </article>
 
@@ -117,7 +130,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-tall">
-        <iframe title="Interactive chart showing extracurricular participation by gender and activity type" src="assets/interactive/gender.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by gender and activity type" src="assets/interactive/gender.html" loading="lazy" aria-describedby="alt-gender"></iframe>
+        <p class="sr-only" id="alt-gender">
+          Faceted bar chart comparing extracurricular participation by gender, activity type, and year. The chart compares clubs, lessons, sports teams, before or after-school programs, and any extracurricular participation. Gender patterns vary by activity, so the overall participation pattern does not look identical across every activity category.
+        </p>
       </div>
     </article>
 
@@ -133,7 +149,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-map">
-        <iframe title="Interactive map showing regional extracurricular participation patterns" src="assets/interactive/region.html" loading="lazy"></iframe>
+        <iframe title="Interactive map showing regional extracurricular participation patterns" src="assets/interactive/region.html" loading="lazy" aria-describedby="alt-region"></iframe>
+        <p class="sr-only" id="alt-region">
+          Two-panel United States region map comparing extracurricular participation in 2020 and 2023. States are grouped into Northeast, Midwest, South, and West regions. Regional participation rates are labeled on the map, and the 2023 panel shows higher participation than the 2020 panel.
+        </p>
       </div>
     </article>
 
@@ -154,7 +173,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-medium">
-        <iframe title="Interactive line chart showing extracurricular participation by age in 2020 and 2023" src="assets/interactive/age.html" loading="lazy"></iframe>
+        <iframe title="Interactive line chart showing extracurricular participation by age in 2020 and 2023" src="assets/interactive/age.html" loading="lazy" aria-describedby="alt-age"></iframe>
+        <p class="sr-only" id="alt-age">
+          Line chart showing extracurricular participation by age for 2020 and 2023. Participation rises from younger ages into early adolescence, is highest around ages 11 to 13, and then declines for older teens. The 2023 line is generally higher than the 2020 line.
+        </p>
       </div>
     </article>
 
@@ -176,7 +198,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-medium">
-        <iframe title="Interactive chart showing extracurricular participation by school disruption status in 2020 and 2023" src="assets/interactive/repeated_suspension.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by school disruption status in 2020 and 2023" src="assets/interactive/repeated_suspension.html" loading="lazy" aria-describedby="alt-repeated-suspension"></iframe>
+        <p class="sr-only" id="alt-repeated-suspension">
+          Bar chart comparing extracurricular participation for students with and without school disruption indicators in 2020 and 2023. Students who repeated a grade or were suspended or expelled participate at lower rates than students without those experiences. The gap appears in both years.
+        </p>
       </div>
     </article>
 
@@ -193,7 +218,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-medium">
-        <iframe title="Interactive chart showing extracurricular participation by homework engagement" src="assets/interactive/homework.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by homework engagement" src="assets/interactive/homework.html" loading="lazy" aria-describedby="alt-homework"></iframe>
+        <p class="sr-only" id="alt-homework">
+          Bar chart comparing extracurricular participation by homework engagement in 2020 and 2023. Students who do homework more consistently generally participate in extracurriculars at higher rates than students with lower homework engagement. The chart suggests a relationship between academic engagement and extracurricular participation.
+        </p>
       </div>
     </article>
 
@@ -209,7 +237,10 @@
         </p>
       </div>
       <div class="interactive-chart chart-medium">
-        <iframe title="Interactive chart showing extracurricular participation by caring about school" src="assets/interactive/cares_school.html" loading="lazy"></iframe>
+        <iframe title="Interactive chart showing extracurricular participation by caring about school" src="assets/interactive/cares_school.html" loading="lazy" aria-describedby="alt-cares-school"></iframe>
+        <p class="sr-only" id="alt-cares-school">
+          Bar chart comparing extracurricular participation by how often students care about school in 2020 and 2023. Students with stronger school attachment generally participate in extracurriculars at higher rates, while lower school attachment is associated with lower participation.
+        </p>
       </div>
     </article>
   </main>
