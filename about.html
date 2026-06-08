@@ -76,8 +76,87 @@
     </section>
 
     <section>
+      <h2>Processing</h2>
+      <p><b>Choosing the Dataset</b><p>
+      <p>
+        We chose SIPP because it combines household economic data with child-level activity information 
+        in a single nationally representative survey. This allowed us to directly connect participation patterns 
+        to income, parental education, poverty status, family structure, and other household characteristics 
+        without needing to merge across separate datasets. SIPP also follows the same households over time, 
+        which gives us a longitudinal foundation even when we are comparing two cross-sectional snapshots.
+      </p>
+
+      <p><b>Choosing the Years</b><p>
+      <p>
+        We selected the 2021 and 2024 SIPP files, which correspond to reference years 2020 and 2023. This window was 
+        intentional. The 2020 data captures a year heavily disrupted by the COVID-19 pandemic, when schools closed,
+        sports leagues paused, and many community programs went offline. The 2023 data reflects the post-pandemic period, 
+        allowing us to measure how much participation recovered and whether recovery was equal across groups.
+      </p>
+
+      <p><b>Cleaning and Subsetting the Data</b><p>
+      <p>
+        We filtered the data to include only children ages 6 to 17 and retained the variables most relevant to our research questions. 
+        These include the four extracurricular activity indicators (sports, clubs, lessons, and before or after school programs), 
+        demographic variables (age, gender, race, Census region), household and family variables (poverty status, parental education, family type), 
+        academic engagement variables (homework frequency, school caring, grade repetition, and suspension or expulsion), and the survey weight variable 
+        used to make estimates representative of the U.S. child population. We created a summary variable called Any_extracurricular that equals 1 if a 
+        child participates in at least one of the four activities. All participation rates throughout the project are calculated using survey weights.
+      </p>
+
+      <p><b>What the Data Allows Us to Show</b><p>
+      <p>
+        Since we have individual-level data with survey weights, we can produce weighted participation rate estimates broken down by any demographic or 
+        household variable in the dataset. This produces bar charts comparing groups by parent education, family type, poverty status, race, and gender. 
+        For age, we use a line chart to show how participation shifts across childhood. For region, we use a choropleth map to show geographic patterns. 
+        For academic engagement variables like homework frequency and school caring, we show how participation rates vary across response categories.
+      </p>
+
+      <p><b>Limitations</b><p>
+      <p>
+        Despite these strengths, the data has real limits we carry into every interpretation. Extracurricular participation is reported by a parent or 
+        guardian, not the child, which can introduce reporting differences by culture and class. The four activity categories are broad and do not distinguish 
+        between school-based and community-based programs, or between a child who attends once a week and one who trains daily. The survey does not capture why 
+        families do not participate, so we cannot directly measure cost, transportation, availability, or cultural barriers. Children outside traditional households 
+        and undocumented immigrant families are likely undercounted. Gender is coded as binary male and female, which does not capture the full range of gender identity. 
+        Taken together, these gaps mean the dataset can show us patterns but cannot fully explain the forces that produce them.
+      </p>
+    </section>
+
+    <section>
       <h2>Presentation</h2>
-      <p class="todo-note">To do: add presentation content.</p>
+      <p><b>How We Present Our Findings</b><p>
+      <p>
+        Our goal is to make the data accessible to a general audience while being honest about the choices we made and the limits of what the data can show. 
+        Rather than displaying charts as isolated results, we connect each visualization to a specific question about childhood, education, and access.
+      </p>
+      
+      <p><b>Visualizations</b><p>
+      <p>
+        We use four chart types, each chosen for a specific reason.
+      </p>
+        <ul>
+          <li>Grouped bar charts are used for categorical comparisons such as parent education, poverty status, and family type. Two bars per category 
+            let readers compare 2020 and 2023 side by side.</li>
+          <li>A choropleth map is used for regional patterns. Mapping participation onto U.S. Census regions lets readers see geographic variation 
+            at a glance.</li>
+          <li>Faceted panels are used for race and gender because each group participates across multiple activity types, and separate panels avoid 
+            cluttered overlapping bars.</li>
+        </ul>
+
+      <p><b>Color Choices</b><p>
+      <p>
+        We use a muted green for 2020 and a muted blue for 2023 consistently across all charts. These colors are easy to 
+        distinguish, accessible, and do not carry associations that could bias how readers interpret the patterns.
+      </p>
+
+      <p><b>Connecting Data to Humanities Questions</b><p>
+      <p>
+        A core principle of this project is that datasets are not neutral. The way SIPP organizes children, 
+        households, and activities shapes what can be seen and what stays hidden. We name these limitations explicitly throughout 
+        the site rather than presenting our charts as complete pictures of American childhood.
+      </p>
+      
     </section>
 
     <section>
