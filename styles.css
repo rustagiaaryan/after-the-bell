@@ -396,6 +396,40 @@ footer {
   margin-top: 40px;
 }
 
+footer p {
+  color: white;
+  margin: 0 0 15px 0;
+  font-size: 1rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.footer-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: underline;
+}
+
+.footer-nav .separator {
+  color: white;
+  margin: 0 5px;
+}
+
 @media (max-width: 800px) {
   .navbar {
     flex-direction: column;
