@@ -212,6 +212,11 @@ cite {
   padding: 30px 34px 12px;
 }
 
+.finding-text-after {
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
 .finding-label {
   color: #497174;
   font-weight: bold;
