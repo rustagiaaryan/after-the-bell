@@ -454,24 +454,69 @@ footer {
   }
 }
 
+.data-critique-section {
+  max-width: 1040px;
+}
+
 .essay-card {
-  background: #ffffff;
-  padding: 42px;
-  border-radius: 22px;
-  box-shadow: 0 10px 30px rgba(31, 58, 95, 0.12);
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .essay-card p {
-  margin-bottom: 24px;
-  text-indent: 2em;
+  margin: 0 0 24px;
+  text-indent: 0;
+}
+
+.critique-visual-row {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  margin: 8px 0 28px;
+}
+
+.critique-visual-row.image-right {
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
+}
+
+.critique-visual-row.image-left {
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+}
+
+.critique-copy p {
+  margin-bottom: 0;
+}
+
+.critique-image {
+  margin: 0;
+  justify-self: center;
+}
+
+.critique-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.census-logo-figure {
+  max-width: 220px;
+}
+
+.wordcloud-figure {
+  max-width: 320px;
 }
 
 @media (max-width: 800px) {
   .essay-card {
-    padding: 24px;
+    padding: 0;
   }
 
-  .essay-card p {
-    text-indent: 0;
+  .critique-visual-row,
+  .critique-visual-row.image-right,
+  .critique-visual-row.image-left {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 }
