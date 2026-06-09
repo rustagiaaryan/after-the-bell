@@ -214,6 +214,28 @@ cite {
   padding-bottom: 30px;
 }
 
+.research-question-group .figure-block {
+  border-top: 1px solid #e8ded1;
+}
+
+.research-question-group .figure-block .finding-text {
+  padding-top: 28px;
+}
+
+.research-question-group .figure-block .finding-text-after {
+  padding-top: 0;
+}
+
+.graphic-caption {
+  width: min(880px, calc(100% - 64px));
+  margin: 0 auto 28px;
+  color: #52606d;
+  font-size: 0.92rem;
+  font-style: italic;
+  line-height: 1.55;
+  text-align: center;
+}
+
 .finding-label {
   color: #497174;
   font-weight: bold;
@@ -245,7 +267,7 @@ cite {
   --chart-height: 560px;
   display: block;
   width: min(960px, calc(100% - 48px));
-  margin: 20px auto 30px;
+  margin: 20px auto 12px;
   background: #ffffff;
   border: 1px solid #e8ded1;
   border-radius: 10px;
