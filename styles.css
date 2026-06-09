@@ -156,15 +156,12 @@ h3 {
 }
 
 .bibliography-entry {
-  background: #ffffff;
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(31, 58, 95, 0.12);
-  margin-bottom: 24px;
-  padding: 28px 32px;
+  margin: 0 0 22px;
+  padding: 0;
 }
 
 .citation {
-  margin: 0 0 16px;
+  margin: 0;
   padding-left: 3em;
   text-indent: -3em;
 }
@@ -422,7 +419,7 @@ footer {
   }
 
   .bibliography-entry {
-    padding: 22px;
+    margin-bottom: 18px;
   }
 
   .citation {
